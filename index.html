@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>lamogui</title>
+    <link rel="stylesheet" type="text/css" href="style/style.css">
+  </head>
+
+  <body>
+  <h1>lamogui</h1>
+  <h2>The sound as you never seen it before</h2>
+  <img src="gif/overhaul.gif">
+  <p> 
+    lamogui is an audio player tool performing real-time signal processing on 
+    music files while reading them. Theses processing computes different values
+    noise, clean, distord and linear but also more classical values like bass
+    or fft. lamogui provide a new way to see sound with the 60Hz (or 50Hz) 
+    scope and a whole new high refresh rate spectrum used to detect note in 
+    real-time (with 20ms of latency + hardware latency). lamogui is designed 
+    for electronic music (dubstep, electro, techno, trance, trap, hardstyle, 
+    chiptune, progressive) but can also be used with any kind of music. 
+  </p>
+  <h3>A new way to see sound</h3>
+  <p> 
+    With the 60Hz scope lamogui provide a new way to see sound. You see the 
+    shape transformation of the music while the song is played. You see the 
+    noise effect on the signal when the snare play or while the artist use 
+    noise sounds. You see when frequency is increased.
+  </p>
+  <img src="gif/scope.gif">
+  <h3>Real-time note detection</h3>
+  <p> 
+    lamogui is able to detect notes in real-time with very short ranges (60Hz
+    !) even for bass notes. It doesn't use a classic fft too slower to combine 
+    precision and short-latency but a special algorithm dedicated to music.
+    lamogui cannot detect bass notes during a drum kick but can approximate 
+    which bass note is being played with this algorithm. lamogui don't care of 
+    any harmonic and only analyse the fundamental.
+  </p>
+  <h3>Very simple to use !</h3>
+  <p> 
+    To use lamogui you just need to drag and drop your file(s) into the window. 
+    lamogui can decode .ogg natively but can also decode .mp3, .m4a, .wav, 
+    .flac and other common formats with the bass library. lamogui start much 
+    faster than vlc player and read nearly the same number of formats. 
+  </p>
+  
+  </body>
+</html>

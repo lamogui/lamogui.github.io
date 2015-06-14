@@ -1,0 +1,19 @@
+﻿
+@font-face {
+    font-family: unispace_rg;
+    src: url(../font/unispace_rg.ttf);
+}
+
+*
+{
+  background-color: #2A2A2A;
+  width: 771px;
+  margin-left: auto; 
+  margin-right: auto;
+}
+
+h1, h2, h3, h4, h5, p
+{
+  color: white;
+  font-family: unispace_rg;
+}
